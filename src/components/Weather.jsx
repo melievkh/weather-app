@@ -32,7 +32,7 @@ function Weather() {
                         value={query}
                     />
                     <button className="btn" onClick={handleSubmit}>
-                        <BsSearch/>
+                        <BsSearch />
                     </button>
                 </div>
                 {weather && (
